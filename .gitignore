@@ -1,0 +1,16 @@
+/bootstrap/compiled.php
+.DS_Store
+.env.*.php
+.env.php
+.idea
+/bootstrap/compiled.php
+/vendor
+app/config/packages/barryvdh
+app/storage/debugbar
+composer.lock
+composer.phar
+node_modules
+public/components
+public/packages/barryvdh
+public/packages/maximebf
+Thumbs.db
