@@ -12,7 +12,7 @@ class CreateDispositivoTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('dispositivo', function(Blueprint $table) {
+		Schema::create('dispositivos', function(Blueprint $table) {
 			$table->increments('id');
 			$table->string('nombre');
 			$table->string('serial')->unique();
@@ -30,7 +30,7 @@ class CreateDispositivoTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('dispositivo');
+		Schema::drop('dispositivos');
 	}
 
 }
