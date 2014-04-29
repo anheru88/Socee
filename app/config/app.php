@@ -121,7 +121,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Barryvdh\VendorCleanup\VendorCleanupServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
-        'Way\Generators\GeneratorsServiceProvider'
+        'Way\Generators\GeneratorsServiceProvider',
+        'Roumen\Asset\AssetServiceProvider',
 
 	),
 
@@ -188,7 +189,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-        'Debugbar'        => 'Barryvdh\Debugbar\Facade'
+        'Debugbar'        => 'Barryvdh\Debugbar\Facade',
+        'Asset'           => 'Roumen\Asset\Asset',
 	),
 
 );

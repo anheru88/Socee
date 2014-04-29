@@ -1,0 +1,51 @@
+/* Navigation
+--------------------------------------------------------------------- */
+.navbar-default {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border: 0;
+}
+.navbar-default .navbar-togglehover,
+.navbar-default .navbar-togglefocus {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle > .icon-bar {
+  background-color: #06979e;
+}
+.navbar-default .navbar-brand {
+  color: #06979e;
+}
+.navbar-default .navbar-brandhover {
+  color: #bdc3c7;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #06979e;
+}
+.navbar-default .navbar-nav > li > ahover,
+.navbar-default .navbar-nav > li > afocus {
+  color: #bdc3c7;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > ahover,
+.navbar-default .navbar-nav > .active > afocus {
+  background-color: transparent;
+  color: #bdc3c7;
+}
+.navbar-default .navbar-right a[type="button"] {
+  padding: 6px 20px 6px 20px;
+  color: #fff;
+}
+.navbar-default .navbar-right a[type="button"]hover,
+.navbar-default .navbar-right a[type="button"]focus {
+  background-color: transparent;
+  color: #06979e;
+}
