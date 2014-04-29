@@ -1,0 +1,26 @@
+/* Button Modifications */
+.btn-theme {
+  background-color: #06979e;
+  color: #fff;
+  border-color: #06979e;
+}
+.btn-themehover,
+.btn-themefocus {
+  border-color: #06979e;
+/* change to darker hue than bg hover color */
+  background-color: transparent;
+  color: #06979e;
+  box-shadow: none;
+}
+.btn-theme2 {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.btn-theme2hover,
+.btn-theme2active {
+  border-color: #fff;
+  background-color: #fff;
+  color: #06979e;
+  box-shadow: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Socee",
+  "devDependencies": {
+    "gulp": "^3.6.1"
+  }
+}
